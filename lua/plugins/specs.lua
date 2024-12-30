@@ -6,4 +6,5 @@ return {
   require("plugins.copilot"),
   require("plugins.statusline"),
   require("plugins.whichkey"),
+  require("plugins.colorscheme"),
 }
