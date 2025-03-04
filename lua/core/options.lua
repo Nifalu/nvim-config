@@ -11,3 +11,6 @@ vim.opt.shiftwidth = 2       -- Indent width
 vim.opt.expandtab = true     -- Use spaces instead of tabs
 vim.opt.cursorline = true    -- Highlight current line
 vim.opt.termguicolors = true -- True color support
+vim.opt.clipboard = "unnamedplus"
+
+
