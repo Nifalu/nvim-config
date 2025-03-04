@@ -7,4 +7,5 @@ return {
   require("plugins.statusline"),
   require("plugins.whichkey"),
   require("plugins.colorscheme"),
+  require("plugins.latex"),
 }
