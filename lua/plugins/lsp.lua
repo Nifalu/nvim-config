@@ -16,6 +16,7 @@ return {
           "cssls",       -- CSS
           "tsserver",    -- JavaScript/TypeScript
           "emmet_ls",    -- Emmet support for HTML/CSS
+          "typst_lsp"    -- Typst
         }
       })
 
@@ -28,7 +29,12 @@ return {
       lspconfig.jdtls.setup({ capabilities = capabilities })
       lspconfig.rust_analyzer.setup({ capabilities = capabilities })
       lspconfig.kotlin_language_server.setup({ capabilities = capabilities })
-      
+      lspconfig.typst_lsp.setup({
+        capabilities = capabilities,
+        settings = {
+          exportPdf = "onSave",
+        }
+      })
       -- Web development
       lspconfig.html.setup({ capabilities = capabilities })
       lspconfig.cssls.setup({ capabilities = capabilities })

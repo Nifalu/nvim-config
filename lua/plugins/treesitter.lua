@@ -13,7 +13,13 @@ return {
         "css",
         "javascript",
         "typescript",
-        "tsx"
+        "tsx",
+        "regex",
+        "vim",
+        "bash",
+        "markdown",
+        "markdown_inline",
+        "typst"
       },
       auto_install = true,
       highlight = { enable = true },

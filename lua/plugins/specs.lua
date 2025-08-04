@@ -8,4 +8,6 @@ return {
   require("plugins.whichkey"),
   require("plugins.colorscheme"),
   require("plugins.latex"),
+  require("plugins.noice"),
+  --require("plugins.typst")
 }
